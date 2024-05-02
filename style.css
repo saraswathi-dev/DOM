@@ -1,0 +1,48 @@
+body
+{
+    background-color: rgb(21, 30, 110);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    
+}
+#box
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 30vh;
+    width: 30vh;
+    background-color: rgb(105, 211, 238);
+    border: 2px solid white;
+    border-radius: 25%;
+}
+p
+{
+    font-size: 30px;
+
+}
+.button
+{
+    padding: 7px;
+    border: 1px solid rgb(21, 30, 110);
+    border-radius: 30%;
+    margin: 6px;
+}
+#even-odd
+{
+    justify-content: center;
+    
+    align-items: center;
+    text-align: center;
+    border: 2px solid white; 
+    border-radius: 25%;
+    background-color: rgb(105, 211, 238);
+    height: 5vh;
+    width: 10vh;
+    position: relative;
+}
